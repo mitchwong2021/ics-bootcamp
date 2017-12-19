@@ -1,0 +1,8 @@
+puts 'Hi there cutie! What\'s your full name?'
+puts 'First enter your first name'
+first = gets.chomp + ' '
+puts 'Then enter your middle name'
+middle = gets.chomp + ' '
+puts 'Finally, enter your last name'
+last = gets.chomp + ' '
+puts 'Hi there ' + first + middle + last + '!'
