@@ -1,0 +1,15 @@
+def old_Roman_sum num
+
+	val = ''
+	val = val + 'M' * (num / 1000)
+	val = val + 'D' * (num % 1000 / 500)
+	val = val + 'C' * (num % 500 / 100)
+	val = val + 'L' * (num % 100 / 50)
+	val = val + 'X' * (num % 50 / 10) 
+	val = val + 'V' * (num % 10 / 5)
+	val = val + 'I' * (num % 5 / 1) 
+	val 
+
+end
+
+puts (old_Roman_sum(69))
