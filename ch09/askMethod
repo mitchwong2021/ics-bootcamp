@@ -1,0 +1,11 @@
+def ask question
+	while true 
+		puts question
+		reply = gets.chomp.downcase
+		return true if reply == 'yes' 
+		return false if reply == 'no' 
+		puts 'Please answer the question'
+	end 
+end
+
+puts ask('Are you a furry?')
